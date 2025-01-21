@@ -152,6 +152,12 @@ li button {
         max-width: 90%;
     }
 
+    .produtos ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
     li button {
         background-color: steelblue;
         color: #fff;
@@ -159,11 +165,5 @@ li button {
         padding: 8px;
         margin-top: 32px;
         cursor: pointer;
-    }
-}
-
-@media screen and (min-width: 1180) and (max-width: 820) {
-    .container {
-        display: none; 
     }
 }
